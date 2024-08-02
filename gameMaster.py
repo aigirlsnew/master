@@ -29,7 +29,7 @@ async def start(update: Update, context: CallbackContext) -> None:
     ⚡ **Real-time Alerts**  
     🌐 **Multi-Platform Support**
 
-    🆓 **Free Trial Bot:** Get 2 signals/day!  
+    🆓 **Free Trial Bot:** Get 5 signals/day!  
     💎 **Premium Bot:** Unlimited signals!
 
     💥 **Get Started:** 💥
