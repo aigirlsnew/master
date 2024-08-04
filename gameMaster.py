@@ -114,7 +114,7 @@ async def button_click(update: Update, context: CallbackContext) -> None:
                 'activated': False
             }
 
-        if user_signals[user_id]['count'] < 5:
+        if user_signals[user_id]['count'] < 20:
             user_signals[user_id]['count'] += 1
             user_signals[user_id]['activated'] = True
             free_message = f"""
