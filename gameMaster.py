@@ -97,7 +97,7 @@ async def button_click(update: Update, context: CallbackContext) -> None:
         await query.edit_message_text(text=follow_up_message, parse_mode=ParseMode.MARKDOWN,
                                       reply_markup=game_reply_markup)
 
-    elif query.data in ['aviator', 'mines', 'limbo', 'tower']:
+    elif query.data in ['mines']:
         user_id = query.from_user.id
 
         if user_id not in user_signals:
